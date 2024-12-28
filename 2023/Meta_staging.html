@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="/CPV.ICO">
+    <link rel="preload" href='vtxdata.js' as='script'>
+    <link rel="preload" href='vtxclient.js' as='script'>
+    <script type='text/javascript' src='vtxdata.js'></script>
+    <script type='text/javascript' src='vtxclient.js'></script>
+    <style>
+        .bg {
+            background-color: #000
+        }
+        .vtxClient {
+            text-align: center;
+            margin: 0 auto;
+            display: inline-block;
+            padding: 32px;
+            min-width: 800px;
+        }
+    </style>
+</head>
+<body class="bg">
+<div style="text-align:center; color:white"> Drop by #cpv-gold-bug-text in the <a href="https://discord.gg/defcon" style="color:cyan" target="_blank">DEF Con Discord</a> to discuss puzzles and ask for hints! Also keep an eye on <a href="https://twitter.com/CryptoVillage" style="color:cyan" target="_blank">@CryptoVillage</a> for hints on twitter
+	<br> Contest runs from 10:00am PT  Friday 8/11/2023 to 12:00pm PT Sunday 8/13/2023.  Team with the most points at the end of the contest wins <a style="color:cyan" href="https://twitter.com/CryptoVillage/status/1678165998309109760">the 2023 GoldBug steampunk beetle trophy</a>!
+	<br> <a style="color:cyan" href='https://bbs.goldbug.cryptovillage.org/puzzles.html'>Access puzzles directly here!</a></div>
+<div style="text-align:center">
+    <div id="vtxclient" class="vtxClient" onclick="document.getElementById(\"vtx_client_wrapper\").focus();">
+    </div>
+    <br>
+    <label style="color:white">[BETA] Mobile users, try this:</label>
+    <input type='text' id='vtx_client_wrapper'>
+    <input type="button" value="mobile submit" onclick="mobile_send()">
+    <script> function mobile_send(){
+	    var zzz = document.getElementById("vtx_client_wrapper");
+		//console.log("Mobile send: " + zzz.value);
+		for(var i = 0; i < zzz.value.length; i++){
+			sendData(zzz.value.charAt(i));
+		}
+		sendData("\r");
+		//sendData("\n");
+		zzz.value="";
+		}
+    </script>
+</div>
+</div>
+</body>
+</html>
+

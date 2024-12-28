@@ -1,0 +1,1300 @@
+
+======== A Coded Dance ========
+
+Twenty-six guests arrive at a grand ballroom and are each given a placard which is pinned to their front.
+The placards each have a letter "A" through "Z" and are handed out alphabetically.
+Once the last guest has arrived, the master of ceremonies calls for everyone's attention. The dance will now begin.
+The master announces a prepared phrase which is used to assign guests to their initial positions: "FOUR KETTLES WARM KEEP WINTER AT BAY"
+
+======== Initial Positions ========
+
+As each letter is uttered, the guest holding the corresponding placard takes their place at the next available number starting at 0.
+If a guest's letter is uttered more than once, that guest makes no movement but to remain on their already assigned position.
+Once the phrase is concluded, the master of ceremonies additionally recites the entire alphabet from A to Z such that any remaining unoccupied numbers will be filled by free-standing guests.
+The master announces the letter "F".
+The guest holding placard F takes their place at marker number 00.
+                        00:(00,F)
+               25:(25, )          01:(01, )
+          24:(24, )                    02:(02, )
+      23:(23, )                            03:(03, )
+   22:(22, )                                  04:(04, )
+ 21:(21, )                                      05:(05, )
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "O".
+The guest holding placard O takes their place at marker number 01.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02, )
+      23:(23, )                            03:(03, )
+   22:(22, )                                  04:(04, )
+ 21:(21, )                                      05:(05, )
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "U".
+The guest holding placard U takes their place at marker number 02.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03, )
+   22:(22, )                                  04:(04, )
+ 21:(21, )                                      05:(05, )
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "R".
+The guest holding placard R takes their place at marker number 03.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04, )
+ 21:(21, )                                      05:(05, )
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "K".
+The guest holding placard K takes their place at marker number 04.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05, )
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "E".
+The guest holding placard E takes their place at marker number 05.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06, )
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "T".
+The guest holding placard T takes their place at marker number 06.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07, )
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "T".
+The master announces the letter "L".
+The guest holding placard L takes their place at marker number 07.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08, )
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "E".
+The master announces the letter "S".
+The guest holding placard S takes their place at marker number 08.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09, )
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "W".
+The guest holding placard W takes their place at marker number 09.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10, )
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "A".
+The guest holding placard A takes their place at marker number 10.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15, )                    11:(11, )
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "R".
+The master announces the letter "M".
+The guest holding placard M takes their place at marker number 11.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15, )                    11:(11,M)
+               14:(14, )          12:(12, )
+                        13:(13, )
+The master announces the letter "K".
+The master announces the letter "E".
+The master announces the letter "E".
+The master announces the letter "P".
+The guest holding placard P takes their place at marker number 12.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15, )                    11:(11,M)
+               14:(14, )          12:(12,P)
+                        13:(13, )
+The master announces the letter "W".
+The master announces the letter "I".
+The guest holding placard I takes their place at marker number 13.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15, )                    11:(11,M)
+               14:(14, )          12:(12,P)
+                        13:(13,I)
+The master announces the letter "N".
+The guest holding placard N takes their place at marker number 14.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15, )                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "T".
+The master announces the letter "E".
+The master announces the letter "R".
+The master announces the letter "A".
+The master announces the letter "T".
+The master announces the letter "B".
+The guest holding placard B takes their place at marker number 15.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16, )                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "A".
+The master announces the letter "Y".
+The guest holding placard Y takes their place at marker number 16.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17, )                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "A".
+The master announces the letter "B".
+The master announces the letter "C".
+The guest holding placard C takes their place at marker number 17.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18, )                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "D".
+The guest holding placard D takes their place at marker number 18.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19, )                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "E".
+The master announces the letter "F".
+The master announces the letter "G".
+The guest holding placard G takes their place at marker number 19.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20, )                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "H".
+The guest holding placard H takes their place at marker number 20.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21, )                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "I".
+The master announces the letter "J".
+The guest holding placard J takes their place at marker number 21.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22, )                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "K".
+The master announces the letter "L".
+The master announces the letter "M".
+The master announces the letter "N".
+The master announces the letter "O".
+The master announces the letter "P".
+The master announces the letter "Q".
+The guest holding placard Q takes their place at marker number 22.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23, )                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "R".
+The master announces the letter "S".
+The master announces the letter "T".
+The master announces the letter "U".
+The master announces the letter "V".
+The guest holding placard V takes their place at marker number 23.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24, )                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "W".
+The master announces the letter "X".
+The guest holding placard X takes their place at marker number 24.
+                        00:(00,F)
+               25:(25, )          01:(01,O)
+          24:(24,X)                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master announces the letter "Y".
+The master announces the letter "Z".
+The guest holding placard Z takes their place at marker number 25.
+                        00:(00,F)
+               25:(25,Z)          01:(01,O)
+          24:(24,X)                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+
+======== Kindly Shuffle About ========
+
+The guests stand about the circle as follows:
+                        00:(00,F)
+               25:(25,Z)          01:(01,O)
+          24:(24,X)                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(05,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master of ceremonies holds up a dial with the numbers 0 to 25 in order clockwise along its edge. A single hand on the dial points to the number 0.
+The master of ceremonies enters the circle and methodically greets his guests, starting at position 00.
+The master stands now at position 00 with dial pointing to 00.
+The master greets the guest here with a bow and advances his dial 00 corresponding to the number on the floor.
+The master then advances his dial again, this time by 05, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 05. At this point, the master calls the guest at position 05 to exchange his marker with the guest at position 00.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(01,O)
+          24:(24,X)                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(00,E)
+20:(20,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 01 with dial pointing to 05.
+The master greets the guest here with a bow and advances his dial 01 corresponding to the number on the floor.
+The master then advances his dial again, this time by 14, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 20. At this point, the master calls the guest at position 20 to exchange his marker with the guest at position 01.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(20,O)
+          24:(24,X)                    02:(02,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(00,E)
+20:(01,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(16,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 02 with dial pointing to 20.
+The master greets the guest here with a bow and advances his dial 02 corresponding to the number on the floor.
+The master then advances his dial again, this time by 20, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 16. At this point, the master calls the guest at position 16 to exchange his marker with the guest at position 02.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(20,O)
+          24:(24,X)                    02:(16,U)
+      23:(23,V)                            03:(03,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(00,E)
+20:(01,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(10,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 03 with dial pointing to 16.
+The master greets the guest here with a bow and advances his dial 03 corresponding to the number on the floor.
+The master then advances his dial again, this time by 17, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 10. At this point, the master calls the guest at position 10 to exchange his marker with the guest at position 03.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(20,O)
+          24:(24,X)                    02:(16,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(04,K)
+ 21:(21,J)                                      05:(00,E)
+20:(01,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 04 with dial pointing to 10.
+The master greets the guest here with a bow and advances his dial 04 corresponding to the number on the floor.
+The master then advances his dial again, this time by 10, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 24. At this point, the master calls the guest at position 24 to exchange his marker with the guest at position 04.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(20,O)
+          24:(04,X)                    02:(16,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(00,E)
+20:(01,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 05 with dial pointing to 24.
+The master greets the guest here with a bow and advances his dial 00 corresponding to the number on the floor.
+The master then advances his dial again, this time by 04, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 02. At this point, the master calls the guest at position 02 to exchange his marker with the guest at position 05.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(20,O)
+          24:(04,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(06,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 06 with dial pointing to 02.
+The master greets the guest here with a bow and advances his dial 06 corresponding to the number on the floor.
+The master then advances his dial again, this time by 19, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 01. At this point, the master calls the guest at position 01 to exchange his marker with the guest at position 06.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(06,O)
+          24:(04,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(19,G)                                        07:(07,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 07 with dial pointing to 01.
+The master greets the guest here with a bow and advances his dial 07 corresponding to the number on the floor.
+The master then advances his dial again, this time by 11, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 19. At this point, the master calls the guest at position 19 to exchange his marker with the guest at position 07.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(06,O)
+          24:(04,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(07,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(08,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 08 with dial pointing to 19.
+The master greets the guest here with a bow and advances his dial 08 corresponding to the number on the floor.
+The master then advances his dial again, this time by 18, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 19. At this point, the master calls the guest at position 19 to exchange his marker with the guest at position 08.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(06,O)
+          24:(04,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(09,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 09 with dial pointing to 19.
+The master greets the guest here with a bow and advances his dial 09 corresponding to the number on the floor.
+The master then advances his dial again, this time by 22, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 24. At this point, the master calls the guest at position 24 to exchange his marker with the guest at position 09.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(06,O)
+          24:(09,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(03,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 10 with dial pointing to 24.
+The master greets the guest here with a bow and advances his dial 03 corresponding to the number on the floor.
+The master then advances his dial again, this time by 00, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 01. At this point, the master calls the guest at position 01 to exchange his marker with the guest at position 10.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(03,O)
+          24:(09,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(15,B)                    11:(11,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 11 with dial pointing to 01.
+The master greets the guest here with a bow and advances his dial 11 corresponding to the number on the floor.
+The master then advances his dial again, this time by 12, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 24. At this point, the master calls the guest at position 24 to exchange his marker with the guest at position 11.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(25,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(15,B)                    11:(09,M)
+               14:(14,N)          12:(12,P)
+                        13:(13,I)
+The master stands now at position 12 with dial pointing to 24.
+The master greets the guest here with a bow and advances his dial 12 corresponding to the number on the floor.
+The master then advances his dial again, this time by 15, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 25. At this point, the master calls the guest at position 25 to exchange his marker with the guest at position 12.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(01,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(15,B)                    11:(09,M)
+               14:(14,N)          12:(25,P)
+                        13:(13,I)
+The master stands now at position 13 with dial pointing to 25.
+The master greets the guest here with a bow and advances his dial 13 corresponding to the number on the floor.
+The master then advances his dial again, this time by 08, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 20. At this point, the master calls the guest at position 20 to exchange his marker with the guest at position 13.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(21,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(15,B)                    11:(09,M)
+               14:(14,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 14 with dial pointing to 20.
+The master greets the guest here with a bow and advances his dial 14 corresponding to the number on the floor.
+The master then advances his dial again, this time by 13, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 21. At this point, the master calls the guest at position 21 to exchange his marker with the guest at position 14.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(15,B)                    11:(09,M)
+               14:(21,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 15 with dial pointing to 21.
+The master greets the guest here with a bow and advances his dial 15 corresponding to the number on the floor.
+The master then advances his dial again, this time by 01, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 11. At this point, the master calls the guest at position 11 to exchange his marker with the guest at position 15.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(02,Y)                            10:(06,A)
+          15:(09,B)                    11:(15,M)
+               14:(21,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 16 with dial pointing to 11.
+The master greets the guest here with a bow and advances his dial 02 corresponding to the number on the floor.
+The master then advances his dial again, this time by 24, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 11. At this point, the master calls the guest at position 11 to exchange his marker with the guest at position 16.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(24,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(17,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 17 with dial pointing to 11.
+The master greets the guest here with a bow and advances his dial 17 corresponding to the number on the floor.
+The master then advances his dial again, this time by 02, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 04. At this point, the master calls the guest at position 04 to exchange his marker with the guest at position 17.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(12,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(17,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(18,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 18 with dial pointing to 04.
+The master greets the guest here with a bow and advances his dial 18 corresponding to the number on the floor.
+The master then advances his dial again, this time by 03, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 25. At this point, the master calls the guest at position 25 to exchange his marker with the guest at position 18.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(17,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(08,G)                                        07:(19,L)
+ 18:(12,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(01,I)
+The master stands now at position 19 with dial pointing to 25.
+The master greets the guest here with a bow and advances his dial 08 corresponding to the number on the floor.
+The master then advances his dial again, this time by 06, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 13. At this point, the master calls the guest at position 13 to exchange his marker with the guest at position 19.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(17,K)
+ 21:(14,J)                                      05:(16,E)
+20:(13,H)                                        06:(20,T)
+19:(01,G)                                        07:(19,L)
+ 18:(12,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 20 with dial pointing to 13.
+The master greets the guest here with a bow and advances his dial 13 corresponding to the number on the floor.
+The master then advances his dial again, this time by 07, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 07. At this point, the master calls the guest at position 07 to exchange his marker with the guest at position 20.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(17,K)
+ 21:(14,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(13,L)
+ 18:(12,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 21 with dial pointing to 07.
+The master greets the guest here with a bow and advances his dial 14 corresponding to the number on the floor.
+The master then advances his dial again, this time by 09, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 04. At this point, the master calls the guest at position 04 to exchange his marker with the guest at position 21.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(22,Q)                                  04:(14,K)
+ 21:(17,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(13,L)
+ 18:(12,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(15,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 22 with dial pointing to 04.
+The master greets the guest here with a bow and advances his dial 22 corresponding to the number on the floor.
+The master then advances his dial again, this time by 16, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 16. At this point, the master calls the guest at position 16 to exchange his marker with the guest at position 22.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(23,V)                            03:(10,R)
+   22:(15,Q)                                  04:(14,K)
+ 21:(17,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(13,L)
+ 18:(12,D)                                      08:(07,S)
+   17:(24,C)                                  09:(04,W)
+      16:(22,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 23 with dial pointing to 16.
+The master greets the guest here with a bow and advances his dial 23 corresponding to the number on the floor.
+The master then advances his dial again, this time by 21, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 08. At this point, the master calls the guest at position 08 to exchange his marker with the guest at position 23.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(11,X)                    02:(00,U)
+      23:(07,V)                            03:(10,R)
+   22:(15,Q)                                  04:(14,K)
+ 21:(17,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(13,L)
+ 18:(12,D)                                      08:(23,S)
+   17:(24,C)                                  09:(04,W)
+      16:(22,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 24 with dial pointing to 08.
+The master greets the guest here with a bow and advances his dial 11 corresponding to the number on the floor.
+The master then advances his dial again, this time by 23, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 16. At this point, the master calls the guest at position 16 to exchange his marker with the guest at position 24.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(18,Z)          01:(03,O)
+          24:(22,X)                    02:(00,U)
+      23:(07,V)                            03:(10,R)
+   22:(15,Q)                                  04:(14,K)
+ 21:(17,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(13,L)
+ 18:(12,D)                                      08:(23,S)
+   17:(24,C)                                  09:(04,W)
+      16:(11,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+The master stands now at position 25 with dial pointing to 16.
+The master greets the guest here with a bow and advances his dial 18 corresponding to the number on the floor.
+The master then advances his dial again, this time by 25, corresponding to the alphabetical index of the letter written on the guest's placard.
+The master's dial now points to 07. At this point, the master calls the guest at position 07 to exchange his marker with the guest at position 25.
+The guest does so and returns to their original position in the circle, placing the new marker on the floor.
+The circle now shows:
+                        00:(05,F)
+               25:(13,Z)          01:(03,O)
+          24:(22,X)                    02:(00,U)
+      23:(07,V)                            03:(10,R)
+   22:(15,Q)                                  04:(14,K)
+ 21:(17,J)                                      05:(16,E)
+20:(19,H)                                        06:(20,T)
+19:(01,G)                                        07:(18,L)
+ 18:(12,D)                                      08:(23,S)
+   17:(24,C)                                  09:(04,W)
+      16:(11,Y)                            10:(06,A)
+          15:(09,B)                    11:(02,M)
+               14:(21,N)          12:(25,P)
+                        13:(08,I)
+Having visited with each of his guests, the master briefly exits the circle.
+
+At this point, several new guests enter the dance floor, each wearing a mask and a lettered placard.
+The masked guests stand in single file outside of the circle, patiently awaiting direction from the master of ceremonies.
+Curiously, the letters on their placards when read together seem to spell out an intelligible, and perhaps purposeful, phrase: MYSTERIOUS
+The master of ceremonies now re-enters the circle and directs the un-masked guests to remove their current placards and replace them with the number marker on which they currently stand. The lettered placards are collected and discarded.
+
+======== Playful Reverie, Nobel & Gleeful ========
+
+The master comences the next phase of the dance, once again beginning at position 00 of the circle. He briefly greets the guest here, and resets his dial to 00.
+The circle now shows:
+                      00:05
+               25:13          01:03
+          24:22                    02:00
+      23:07                            03:10
+   22:15                                  04:14
+ 21:17                                      05:16
+20:19                                        06:20
+19:01                                        07:18
+ 18:12                                      08:23
+   17:24                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 01 with his dial now set at 00.
+The master greets the guest at this position and advances his dial by 03 corresponding to the number on the guest's placard.
+The master's dial now reads 03. He hands the guest at position 01 a napkin.
+The master invites the guest at positions 01 (corresponding to the master's current position) and 03 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 01 leads for 03 counts and ends their lead at position 03.
+The second guest from position 03 continues, leading for 10 counts, and ends the dance at position 13.
+The guests place the napkin at position 13 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 13. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 08, corresponding to the guest's placard.
+The assistant then advances his dial by 12, corresponding to the alphabetical index of the masked guest's placard letter M.
+The assistant's dial now reads 20 and quickly draws up a new placard with the letter U (corresponding to the letter at alphabetical index 20).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:10
+          24:22                    02:00
+      23:07                            03:03
+   22:15                                  04:14
+ 21:17                                      05:16
+20:19                                        06:20
+19:01                                        07:18
+ 18:12                                      08:23
+   17:24                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 02 with his dial now set at 03.
+The master greets the guest at this position and advances his dial by 00 corresponding to the number on the guest's placard.
+The master's dial now reads 03. He hands the guest at position 02 a napkin.
+The master invites the guest at positions 02 (corresponding to the master's current position) and 03 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 02 leads for 00 counts and ends their lead at position 00.
+The second guest from position 03 continues, leading for 03 counts, and ends the dance at position 03.
+The guests place the napkin at position 03 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 03. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 00, corresponding to the guest's placard.
+The assistant then advances his dial by 24, corresponding to the alphabetical index of the masked guest's placard letter Y.
+The assistant's dial now reads 24 and quickly draws up a new placard with the letter Y (corresponding to the letter at alphabetical index 24).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:10
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:14
+ 21:17                                      05:16
+20:19                                        06:20
+19:01                                        07:18
+ 18:12                                      08:23
+   17:24                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 03 with his dial now set at 03.
+The master greets the guest at this position and advances his dial by 00 corresponding to the number on the guest's placard.
+The master's dial now reads 03. He hands the guest at position 03 a napkin.
+The master invites the guest at positions 03 (corresponding to the master's current position) and 03 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 03 leads for 00 counts and ends their lead at position 00.
+The second guest from position 03 continues, leading for 00 counts, and ends the dance at position 00.
+The guests place the napkin at position 00 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 00. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 05, corresponding to the guest's placard.
+The assistant then advances his dial by 18, corresponding to the alphabetical index of the masked guest's placard letter S.
+The assistant's dial now reads 23 and quickly draws up a new placard with the letter X (corresponding to the letter at alphabetical index 23).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:10
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:14
+ 21:17                                      05:16
+20:19                                        06:20
+19:01                                        07:18
+ 18:12                                      08:23
+   17:24                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 04 with his dial now set at 03.
+The master greets the guest at this position and advances his dial by 14 corresponding to the number on the guest's placard.
+The master's dial now reads 17. He hands the guest at position 04 a napkin.
+The master invites the guest at positions 04 (corresponding to the master's current position) and 17 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 04 leads for 14 counts and ends their lead at position 14.
+The second guest from position 17 continues, leading for 24 counts, and ends the dance at position 12.
+The guests place the napkin at position 12 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 12. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 25, corresponding to the guest's placard.
+The assistant then advances his dial by 19, corresponding to the alphabetical index of the masked guest's placard letter T.
+The assistant's dial now reads 18 and quickly draws up a new placard with the letter S (corresponding to the letter at alphabetical index 18).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:10
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:16
+20:19                                        06:20
+19:01                                        07:18
+ 18:12                                      08:23
+   17:14                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 05 with his dial now set at 17.
+The master greets the guest at this position and advances his dial by 16 corresponding to the number on the guest's placard.
+The master's dial now reads 07. He hands the guest at position 05 a napkin.
+The master invites the guest at positions 05 (corresponding to the master's current position) and 07 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 05 leads for 16 counts and ends their lead at position 16.
+The second guest from position 07 continues, leading for 18 counts, and ends the dance at position 08.
+The guests place the napkin at position 08 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 08. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 23, corresponding to the guest's placard.
+The assistant then advances his dial by 04, corresponding to the alphabetical index of the masked guest's placard letter E.
+The assistant's dial now reads 01 and quickly draws up a new placard with the letter B (corresponding to the letter at alphabetical index 01).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:10
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:18
+20:19                                        06:20
+19:01                                        07:16
+ 18:12                                      08:23
+   17:14                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 06 with his dial now set at 07.
+The master greets the guest at this position and advances his dial by 20 corresponding to the number on the guest's placard.
+The master's dial now reads 01. He hands the guest at position 06 a napkin.
+The master invites the guest at positions 06 (corresponding to the master's current position) and 01 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 06 leads for 20 counts and ends their lead at position 20.
+The second guest from position 01 continues, leading for 10 counts, and ends the dance at position 04.
+The guests place the napkin at position 04 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 04. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 24, corresponding to the guest's placard.
+The assistant then advances his dial by 17, corresponding to the alphabetical index of the masked guest's placard letter R.
+The assistant's dial now reads 15 and quickly draws up a new placard with the letter P (corresponding to the letter at alphabetical index 15).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:20
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:18
+20:19                                        06:10
+19:01                                        07:16
+ 18:12                                      08:23
+   17:14                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 07 with his dial now set at 01.
+The master greets the guest at this position and advances his dial by 16 corresponding to the number on the guest's placard.
+The master's dial now reads 17. He hands the guest at position 07 a napkin.
+The master invites the guest at positions 07 (corresponding to the master's current position) and 17 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 07 leads for 16 counts and ends their lead at position 16.
+The second guest from position 17 continues, leading for 14 counts, and ends the dance at position 04.
+The guests place the napkin at position 04 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 04. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 24, corresponding to the guest's placard.
+The assistant then advances his dial by 08, corresponding to the alphabetical index of the masked guest's placard letter I.
+The assistant's dial now reads 06 and quickly draws up a new placard with the letter G (corresponding to the letter at alphabetical index 06).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:20
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:18
+20:19                                        06:10
+19:01                                        07:14
+ 18:12                                      08:23
+   17:16                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:21          12:25
+                      13:08
+The master advances one position to position 08 with his dial now set at 17.
+The master greets the guest at this position and advances his dial by 23 corresponding to the number on the guest's placard.
+The master's dial now reads 14. He hands the guest at position 08 a napkin.
+The master invites the guest at positions 08 (corresponding to the master's current position) and 14 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 08 leads for 23 counts and ends their lead at position 23.
+The second guest from position 14 continues, leading for 21 counts, and ends the dance at position 18.
+The guests place the napkin at position 18 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 18. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 12, corresponding to the guest's placard.
+The assistant then advances his dial by 14, corresponding to the alphabetical index of the masked guest's placard letter O.
+The assistant's dial now reads 00 and quickly draws up a new placard with the letter A (corresponding to the letter at alphabetical index 00).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:20
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:18
+20:19                                        06:10
+19:01                                        07:14
+ 18:12                                      08:21
+   17:16                                  09:04
+      16:11                            10:06
+          15:09                    11:02
+               14:23          12:25
+                      13:08
+The master advances one position to position 09 with his dial now set at 14.
+The master greets the guest at this position and advances his dial by 04 corresponding to the number on the guest's placard.
+The master's dial now reads 18. He hands the guest at position 09 a napkin.
+The master invites the guest at positions 09 (corresponding to the master's current position) and 18 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 09 leads for 04 counts and ends their lead at position 04.
+The second guest from position 18 continues, leading for 12 counts, and ends the dance at position 16.
+The guests place the napkin at position 16 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 16. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 11, corresponding to the guest's placard.
+The assistant then advances his dial by 20, corresponding to the alphabetical index of the masked guest's placard letter U.
+The assistant's dial now reads 05 and quickly draws up a new placard with the letter F (corresponding to the letter at alphabetical index 05).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+The circle now shows:
+                      00:05
+               25:13          01:20
+          24:22                    02:03
+      23:07                            03:00
+   22:15                                  04:24
+ 21:17                                      05:18
+20:19                                        06:10
+19:01                                        07:14
+ 18:04                                      08:21
+   17:16                                  09:12
+      16:11                            10:06
+          15:09                    11:02
+               14:23          12:25
+                      13:08
+The master advances one position to position 10 with his dial now set at 18.
+The master greets the guest at this position and advances his dial by 06 corresponding to the number on the guest's placard.
+The master's dial now reads 24. He hands the guest at position 10 a napkin.
+The master invites the guest at positions 10 (corresponding to the master's current position) and 24 (corresponding to the dial's position) to dance around the circle.
+The guests begin their dance at position 00 and take turns leading for counts corresponding to their placards - each count, advancing one position
+The first guest from position 10 leads for 06 counts and ends their lead at position 06.
+The second guest from position 24 continues, leading for 22 counts, and ends the dance at position 02.
+The guests place the napkin at position 02 and each return to the other's position.
+The master now escorts the masked guest from the front of the line to meet the guest at position 02. The two bow and the master retrieves his napkin.
+An assistant carrying his own dial identical to the master's arrives to facilitate introductions.
+The assistant sets his dial to 03, corresponding to the guest's placard.
+The assistant then advances his dial by 18, corresponding to the alphabetical index of the masked guest's placard letter S.
+The assistant's dial now reads 21 and quickly draws up a new placard with the letter V (corresponding to the letter at alphabetical index 21).
+The assistant attaches the new placard to the masked guest's front, replacing the old one. The masked guest bows and exits the room.
+With no masked guests remaining, the master of ceremonies announces that the dance has concluded and exits the ballroom. At this point, guests are invited to mingle freely amongst themselves.

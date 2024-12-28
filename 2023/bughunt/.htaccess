@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect PNG images to default.php
+RewriteCond %{REQUEST_URI} \.png$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ image.php [L]
+
+# Redirect other files to index.html
+RewriteCond %{REQUEST_URI} !\.png$
+RewriteCond %{REQUEST_FILENAME} !-f                                                                                                                                                      
+RewriteRule ^(.*)$ index.php [L]

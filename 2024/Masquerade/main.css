@@ -1,0 +1,157 @@
+
+
+	@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playwrite+AU+VIC&display=swap');
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:black;
+}
+
+#main{
+	position:relative;
+	top:0px;
+	left:10%;
+	width:80%;
+	height:80%;
+	margin-bottom:20px;
+	color:green;
+	font-size:200%;
+	font-family:Monospace;
+	text-align:center;
+	
+}
+#logo-splash{
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	width:auto;
+}
+.center_image{
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	width:auto;
+}
+#logo-big{
+	position:relative;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height:150px;
+	width:auto;	
+}
+.cipher{
+  position:relative;
+  top:10px;
+  left:10%;
+  width:80%;
+  color:#808080;
+  font-family:'Courier New',monospace;
+  text-align:center;
+}
+#meta{
+	position:absolute;
+	top:10px;
+	right:50px;
+	font-family:Monospace;
+	color:#404040;
+}
+.cipherimg{
+	max-width:60%;
+	max-height:60vh;
+}
+#footer{
+	font-size:80%;
+}
+.solution{
+	color:red;
+	display:inline;
+}
+
+.starmap{
+	font-size:60%;
+}
+
+#glogin{
+	position:absolute;
+	top:5%;
+	right:10%;
+}
+.g-signin2{
+float:left;
+}
+#userimgcontainer{
+display:block;
+float:left;
+}
+#userimg{
+	position:relative;
+	float:left;
+	max-height:37;
+	max-width:auto;
+}
+#cipherinput{
+	position:relative;
+	width:100%;
+	min-height:40px;
+	font-family:monospace;
+}
+
+#output{
+	position:relative;
+	width:100%;
+}
+
+#output table{
+	color:gray;
+	position:relative;
+	width:100%;
+	table-layout: fixed;
+}
+#output table th, td{
+	padding:10px;
+	word-wrap: break-word;
+}
+#output table tr:nth-child(even){
+	background:#222222;
+}
+#page_div{
+	float:right;
+	font-size:50%;
+}
+#about{
+	font-size:80%;
+	margin:40px;
+
+
+}
+.button{
+	margin:5px;
+	padding:5px;
+	width:20%;
+	color:green;
+	background:black;
+	border-color:green;
+	border:dashed;
+}
+.button:hover{
+	color:red;
+	border-color:red;
+	cursor:pointer;
+
+}
+
+#error{
+	color:red;
+	width:100%;
+	font-size:80%;
+	font-family:monospace;
+}
