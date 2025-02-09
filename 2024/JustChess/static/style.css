@@ -1,0 +1,33 @@
+body {
+    padding-top: 70px;
+    align-items: center;
+    /* background-color: #f8f8f8; */
+    background-image: url("/puzzles/Chess/static/libs/chessboard/img/background.jpg");
+}
+
+#mainWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust height as needed */
+}
+
+#board {
+    padding: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    width: 400px; /* Adjust size as needed */
+    height: 400px;
+}
+
+.navbar {
+    background-color: red;
+}
+
+#logo {
+    position: relative;
+    left: 10%;
+}
+
+/* Remove #secondWindow, #moveTable, and #controls as they are no longer needed */
+/* New CSS for the image */

@@ -1,0 +1,89 @@
+/*!
+ * chessboard.js v0.3.0
+ *
+ * Copyright 2013 Chris Oakman
+ * Released under the MIT license
+ * https://github.com/oakmac/chessboardjs/blob/master/LICENSE
+ *
+ * Date: 10 Aug 2013
+ */
+
+/* clearfix */
+.clearfix-7da63 {
+  clear: both;
+}
+
+/* board */
+.board-b72b1 {
+  border: 5px solid #8B4513; /* Dark brown border */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  box-sizing: content-box;
+  background: url('https://www.transparenttextures.com/patterns/wood.png'); /* Wood texture background */
+}
+
+/* square */
+.square-55d63 {
+  float: left;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* white square */
+.white-1e1d7 {
+  background-color: #D2B48C; /* Tan background */
+  color: #8B4513; /* Dark brown text */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW3_P2gbKCPdSsyz7v7wD55ljsHE0v1HaFXg&s'); /* Subtle leather texture */
+}
+
+/* black square */
+.black-3c85d {
+  background-color: #8B4513; /* Dark brown background */
+  color: #D2B48C; /* Tan text */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6mEDJrTG0keLvFvf5cvlsM-pyLj-ykRb0FA&s'); /* Wood texture */
+}
+
+/* highlighted square */
+.highlight1-32417, .highlight2-9c5d2 {
+  box-shadow: inset 0 0 3px 3px #FFD700; /* Gold highlight */
+}
+
+/* notation */
+.notation-322f9 {
+  cursor: default;
+  font-family: "Times New Roman", Times, serif; /* Victorian style font */
+  font-size: 14px;
+  position: absolute;
+  color: #a88c63; /* Dark indigo for a classic look */
+}
+.alpha-d2270 {
+  bottom: 1px;
+  right: 3px;
+}
+.numeric-fc462 {
+  top: 2px;
+  left: 2px;
+}
+.centered {
+  top: 8px;
+  left: 8px;
+}
+
+/* New CSS for the image */
+#imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#victorianImage {
+  height: 400px; /* Same height as the chessboard */
+  width: auto; /* Scale width proportionally */
+  border: 5px solid #8B4513; /* Matching dark brown border */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}

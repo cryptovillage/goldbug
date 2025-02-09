@@ -1,0 +1,160 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Madame Reed's House of the Undead</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "EB Garamond", serif;
+            color: black;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header,
+        .footer {
+            background-color: #3f4a3a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration-color: #ffffff;
+        }
+
+        .navbar {
+            background-color: #000000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 0px;
+            margin-top: 60px;
+        }
+
+        .sub-content {
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+	img{
+		width: 100%;
+		height: 100%;
+	}
+        h1 {
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 27px;
+            color: #ffffff;
+        }
+
+        h3 {
+            color: #3f4a3a;
+        }
+
+        h4 {
+            color: #3f4a3a;
+            font-size: 14px;
+        }
+
+        p,
+        li {
+            text-align: justify;
+        }
+
+        a {
+            color: #3f4a3a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .header-subtitle {
+            font-style: italic;
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: 20px;
+        }
+
+        .authors {
+            font-style: italic;
+        }
+
+        .link-bar {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        article {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="House-of-the-Undead.html">MADAME REED'S HOUSE OF THE UNDEAD</a>
+    </div>
+    <div class="content">
+        <div class="header">
+<?php
+	if ( $_SESSION["status"] === "solved" ){
+	    echo '<h1>Ouija Board</h1>
+            <p class="header-subtitle">As you approach the main table where séances are conducted and whisper the name "gateshead", a cold shiver runs down your spine. The
+                planchette begins to move of its own accord.
+            </p>
+        </div>
+        <div class="sub-content">
+            <img id="ouija-gif" src="gifs/18f542edd0c9cd6ad2062de4461d09661faa1748c843e73a670d45b6bdfc3de2.gif">
+	</div>';
+	} else {
+		echo '<h1> You should not be here. Speak the proper name first!</h1>';
+	}
+?>
+    </div>
+
+</body>
+
+</html>

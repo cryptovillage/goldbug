@@ -1,0 +1,4 @@
+flask
+python-chess
+python-chess[uci,gaviota]
+werkzeug
